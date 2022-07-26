@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className="App">
       <Card product={product} />
-      <Pagination totalPages={totalPages}/>
+      <Pagination totalPages={totalPages} activePageIndex={3}/>
     </div>
   );
 }
